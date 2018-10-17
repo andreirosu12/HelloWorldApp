@@ -18,9 +18,4 @@ public class Main {
   String index() {
     return "index";
   }
-  
-  @RequestMapping("/")
-  String result() {
-	  return "result";
-  }
 }
